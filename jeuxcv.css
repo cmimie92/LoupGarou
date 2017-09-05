@@ -1,0 +1,526 @@
+section{
+    border-radius: 9px;
+  width:970px;
+  height:550px;
+  margin:auto;
+  background-image:url("foretbis4.png")  ;
+  background-attachment: scroll;
+  position:relative;
+  background-repeat:no-repeat;
+  z-index: 10;
+
+
+}
+
+main{
+ margin:auto;
+  width:1500px;
+  height:800px;
+
+
+}
+
+body{
+background-image:url("darkforest3bis.jpg") ;
+background-repeat:no-repeat;
+}
+
+button{
+  width:120px;
+  height:50px;
+  position:fixed;
+  top:20px;
+  right:20px;
+
+
+}
+
+
+
+#button0{
+  width:120px;
+  height:50px;
+  position:fixed;
+top:20px;
+  right:20px;
+  background:#086A87;
+  transition:0.5s;
+  cursor:pointer;
+  border:2;
+  border-radius: 20px;
+  z-index: 15;
+  font-family:cursive;
+  text-align: center;
+  margin: auto;
+
+
+
+
+}
+#button0:hover{
+  background:#01A9DB;
+    box-shadow:7px 7px 0px black;
+}
+
+#button1{
+  width:120px;
+  height:50px;
+  position:fixed;
+  top:165px;
+  right:20px;
+  background:#086A87;
+  transition:0.5s;
+  cursor:pointer;
+  border:2;
+  border-radius: 20px;
+  z-index: 15;
+  font-family:cursive;
+  text-align: justify;
+
+
+}
+#button1:hover{
+  background:#01A9DB;
+    box-shadow:7px 7px 0px black;
+}
+
+.button2{
+  width:120px;
+  height:50px;
+  position:fixed;
+  top:605px;
+  right:20px;
+  background:#086A87;
+  transition:0.5s;
+  cursor:pointer;
+  border:2;
+  border-radius: 20px;
+  z-index: 15;
+    font-family:cursive;
+    text-align: justify;
+    font-size: 10px;
+    font-weight: bold;
+}
+.button2:hover{
+  background:#01A9DB;
+  width:200px;
+  height:60px;
+      box-shadow:7px 7px 0px black;
+
+}
+
+#button3{
+  width:95%;
+  height:90%;
+  position:absolute;
+  margin: 0 auto;
+  background:rgba(255,255,255,0);
+  transition:0.5s;
+  cursor:pointer;
+text-align: center;
+  border-radius: 20px;
+  z-index: 50;
+    font-family:cursive;
+    font-size: 30px;
+
+}
+#button3:hover{
+  background:rgba(255,255,255,0.3);
+}
+span{
+color:#086A87;
+font-size: 10px;
+font-weight: bold;
+}
+
+
+h1{
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+    font-family:cursive;
+}
+h2,h3{
+  margin: 0 auto;
+  text-align: center;
+  font-family:cursive;
+  font-weight: bolder;
+  overflow: hidden;
+}
+
+
+#zone13,#zone11,#zone12{
+  float:left;
+  width:18%;
+  height:68%;
+  z-index:11;
+  text-align: center;
+  font-weight: bold;
+  font-family:cursive;
+  overflow: hidden;
+  color:#01A9DB;
+  background:rgba(0, 0, 0, 0.3);
+  box-shadow: -17px -17px 50px black;
+
+
+
+}
+
+#zone1{
+  float:left;
+  width:18%;
+  height:68%;
+  z-index:11;
+  text-align: center;
+  font-weight: bold;
+  font-family:cursive;
+  overflow: hidden;
+  color:#01A9DB;
+  background:rgba(0, 0, 0, 0.3);
+  box-shadow: -17px -17px 50px black;
+}
+
+
+#bois,#paille,#brique{
+  display:block;
+
+}
+
+#zone2{
+  float:left;
+  width:64%;
+  height:50%;
+
+}
+#zone3{
+  float:left;
+  width:18%;
+  height:68%;
+  z-index:11;
+  text-align: center;
+  font-weight: bold;
+    font-family:cursive;
+    overflow: hidden;
+    color:#01A9DB;
+    background:rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    box-shadow: 19px -17px 50px black;
+
+
+}
+#zone4{
+  background:rgba(0, 0, 0, 0.3);
+  float:left;
+
+  width:100%;
+  height:32%;
+  clear:both;
+  text-align: center;
+    font-family:cursive;
+      overflow: hidden;
+        color:#01A9DB;
+    font-size: 23px;
+    box-shadow: 0px 20px 50px black;
+
+
+}
+.zone5,.zone6,.zone8{
+  float:left;
+    width:25%;
+  height:100%;
+  text-align: center;
+font-weight:bolder;
+    font-family:cursive;
+
+
+}
+
+.zone7{
+  float:left;
+  width:25%;
+  height:100%;
+  text-align: left;
+  font-weight:bolder;
+    font-family:cursive;
+
+}
+
+#zone9{
+
+  width:100%;
+  height:100%;
+
+  position:relative;
+border-radius: 10px;
+  z-index: 45;
+  font-size: 20px;
+  font-weight: bold;
+  background-image:url("loupgaroubis.jpg")  ;
+  background-attachment: scroll;
+  background-repeat:no-repeat;
+}
+
+#zone10{
+
+  width:100%;
+  height:100%;
+
+  position:relative;
+  overflow: visible;
+border-radius: 10px;
+  z-index: 45;
+  font-size: 20px;
+  font-weight: bold;
+  background-image:url("loupgaroubis111.jpg")  ;
+  background-attachment: scroll;
+  background-repeat:no-repeat;
+  display:none;
+}
+
+
+#niveau2{
+  width:300px;
+  height:100px;
+  margin:0 auto;
+  bottom:500px;
+  z-index: 21;
+  overflow: hidden;
+  position:relative;
+  font-size: 20px;
+  font-weight: bold;
+  background: #086A87;
+  border-radius: 20px;
+  text-align:center;
+  box-shadow:10px 10px 10px black;
+  display: none;
+  transition:0.5s;
+
+}
+#niveau2:hover{
+background:#01A9DB;
+}
+
+#niveau3{
+  width:300px;
+  height:100px;
+  margin:0 auto;
+  bottom:500px;
+  z-index: 21;
+  overflow: hidden;
+  position:relative;
+  font-size: 20px;
+  font-weight: bold;
+  background: #086A87;
+  border-radius: 20px;
+  text-align:center;
+  box-shadow:10px 10px 10px black;
+  display: none;
+  transition:0.5s;
+
+}
+#niveau3:hover{
+background:#01A9DB;
+}
+
+#outils{
+  width:350px;
+  height:100px;
+  margin:100px auto;
+  bottom:600px;
+  z-index: 20;
+  overflow: hidden;
+  position:relative;
+  font-size: 20px;
+  font-weight: bold;
+  text-align:center;
+  display: none;
+  color:#848484;
+
+}
+
+#score{
+  width:450px;
+  height:100px;
+  left:250px;
+  bottom:800px;
+  z-index: 30;
+  overflow:hidden;
+  position:relative;
+  font-size: 50px;
+  font-weight: bold;
+  text-align:center;
+  display: block;
+  color :#8A0808;
+
+
+}
+
+
+.masque{
+    position:absolute;
+    overflow: hidden;
+    height: 82px;
+    width:80px;
+    top: 460px;
+
+}
+.masque1{
+    position:absolute;
+    overflow: hidden;
+    height: 60px;
+    width:80px;
+    top: 470px;
+}
+
+.masque2{
+  position:absolute;
+  overflow: hidden;
+  height: 200px;
+  width:260px;
+  top: 365px;
+
+}
+.masque3{
+  position:absolute;
+  overflow: hidden;
+  height: 85px;
+  width:70px;
+}
+
+.masque4{
+    position:absolute;
+    overflow: hidden;
+    height: 130px;
+    width:135px;
+    top: 440px;
+   display:none;
+}
+.masque5{
+  position:absolute;
+  overflow: hidden;
+  height: 200px;
+  width:260px;
+  top: 365px;
+  display:none;
+
+}
+
+.masque6{
+    position:absolute;
+    overflow: hidden;
+    height: 140px;
+    width:170px;
+    top: 440px;
+   display:none;
+}
+
+.masque7{
+  position:absolute;
+  overflow: hidden;
+  height: 200px;
+  width:260px;
+  top: 365px;
+  display:none;
+
+}
+
+.masque8{
+    position:absolute;
+    overflow: hidden;
+    height: 140px;
+    width:190px;
+    top: 440px;
+   display:none;
+}
+
+.masque10{
+  position:absolute;
+  overflow: hidden;
+  height: 500px;
+  width:500px;
+  top:300px;
+  display:none;
+
+}
+
+
+
+.sprite{
+  position: absolute;
+  z-index: 6;
+}
+.sprite1{
+  position: absolute;
+  z-index: 4;
+
+}
+
+.sprite2{
+position: absolute;
+z-index: 5;
+}
+.sprite3{
+position: absolute;
+z-index: 5;
+}
+
+.sprite4{
+  position: absolute;
+  z-index: 7;
+
+}
+.sprite5{
+position: absolute;
+z-index: 5;
+}
+
+.sprite6{
+  position: absolute;
+  z-index: 7;
+}
+
+.sprite7{
+position: absolute;
+z-index: 5;
+}
+
+.sprite8{
+  position: absolute;
+  z-index: 7;
+}
+.sprite9{
+  position:absolute;
+  overflow:visible;
+  height: 115px;
+  width:160px;
+  top: 430px;
+ display:none;
+ z-index: 9;
+
+}
+.sprite10{
+position: absolute;
+z-index: 20;
+}
+
+.sprite11{
+  position:absolute;
+  overflow: hidden;
+  height: 130px;
+  width:120px;
+  left:850px;
+  top:410px;
+  display:none;
+z-index: 20;
+}
+
+.sprite12{
+  position:absolute;
+  overflow: hidden;
+  height: 70px;
+  width:50px;
+  left:132px;
+  top:260px;
+  display:none;
+z-index: 20;
+}
